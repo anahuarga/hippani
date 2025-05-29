@@ -1,0 +1,415 @@
+<Movie movietype="Universal" version="5.1.6360.15403" width="800" height="600" scale="Fit" backgroundimagescale="None" loop="True" autoplay="True" clip="True" backcolor="#FFFFFF" ambientcolor="#FFFFFF" showgrid="False" snaptogrid="False" gridsize="10" gridcolor="#5BA2DF" showguide="True" snaptoguide="True" lockguide="False" guidecolor="#0B8F2A" lockratio="True" onkeypress="if(Key==39) {   &#13;&#10;    &#13;&#10;boy.Visible = true; &#13;&#10;&#13;&#10;boy.X = boy.X+10;&#13;&#10;  if ( boy.X &gt;  600) {&#13;&#10;    boy.X =10;&#13;&#10;  }&#13;&#10;&#13;&#10; &#13;&#10;  ImageSequencePlay(&quot;boy&quot;);&#13;&#10;}&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;if(Key==37) {    &#13;&#10;&#13;&#10;boy.Visible = true; &#13;&#10;&#13;&#10;boy.X = boy.X -10; &#13;&#10;if ( boy.X &lt;  0) {&#13;&#10;    boy.X =600;&#13;&#10; }&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;ImageSequencePlay(&quot;boy&quot;);&#13;&#10;}" onkeyrelease="ImageSequenceStop(&quot;boy&quot;);&#13;&#10;" showbackgroundimage="False" author="Usuario de Windows" build="27" >
+	<Library>
+		<Folder name="Folder2" open="True" />
+		<Folder name="Folder1" open="True" />
+		<Folder name="naomi" open="True" />
+		<Folder name="Creditos" open="True" />
+		<Folder name="animacion inicial" open="True" />
+		<Folder name="galeria" open="True" />
+		<Folder name="menu botones e imagenes" open="True" />
+		<Folder name="botones galeria" open="True" />
+		<YouTube name="YouTube1" folder="animacion inicial" videoid="pEeDV0XBMiw" loop="False" autoplay="True" showcontrols="True" />
+		<Image name="vodka" folder="galeria" source="C:&#92;Users&#92;quiro&#92;Downloads&#92;Ilustración_sin_título (7).png" />
+		<TextBox name="10" folder="galeria" color="#FFFFFF" fontsize="16" fonttype="WebSafe" websafefont="LucidaConsole" bold="True" italic="True" underline="False" >Creo que escondi un poco en las ruinas de San Dimas...</TextBox>
+		<TextBox name="9" folder="galeria" color="#FFFFFF" fontsize="16" fonttype="WebSafe" websafefont="LucidaConsole" bold="True" italic="True" underline="False" >...</TextBox>
+		<TextBox name="8" folder="galeria" color="#990000" fontsize="21" fonttype="WebSafe" websafefont="LucidaConsole" bold="True" strikeout="True" italic="True" underline="False" >Necesito un trago...</TextBox>
+		<TextBox name="7" folder="galeria" color="#FFFFFF" fontsize="16" fonttype="WebSafe" websafefont="LucidaConsole" bold="True" italic="True" underline="False" >...Hace que mi garganta se cierre y mi estomago duela...</TextBox>
+		<TextBox name="6" folder="galeria" color="#FFFFFF" fontsize="13" fonttype="WebSafe" websafefont="LucidaConsole" bold="True" strikeout="True" italic="True" underline="False" >Necesito un trago...</TextBox>
+		<TextBox name="5" folder="galeria" color="#FFFFFF" fontsize="16" fonttype="WebSafe" websafefont="LucidaConsole" bold="True" italic="True" underline="False" >Tan solo pensar en alguna alimaña descomponiendose lentamente...</TextBox>
+		<TextBox name="4" folder="galeria" color="#FFFFFF" fontsize="11" fonttype="WebSafe" websafefont="LucidaConsole" bold="True" strikeout="True" italic="True" underline="False" >Necesito un trago...</TextBox>
+		<TextBox name="3" folder="galeria" color="#FFFFFF" fontsize="16" fonttype="WebSafe" websafefont="LucidaConsole" bold="True" italic="True" underline="False" >Sin embargo ahora empiezo a sospechar que es porque Tobias no revisó las trampas que coloqué para capturar a las ratas como prometió...</TextBox>
+		<TextBox name="2" folder="galeria" color="#FFFFFF" fontsize="16" fonttype="WebSafe" websafefont="LucidaConsole" bold="True" italic="True" underline="False" >La cocina desde hace un par de dias que esta envuelta en un aroma putrido y acido que no conseguia localizar.</TextBox>
+		<Button name="continuar boton" folder="galeria" onclick="GotoAndStop(GetFrame()+2);&#13;&#10;SoundPlay(&quot;boton&quot;,false);" image="cont" pressimage="cont" filltype="Image" iconsize="30" bevelwidth="20" fontsize="12" fonttype="Standard" underline="False" userelease="False" >Text</Button>
+		<Image name="cont" folder="galeria" />
+		<TextBox name="1" folder="galeria" color="#FFFFFF" fontsize="16" fonttype="WebSafe" websafefont="LucidaConsole" bold="True" italic="True" underline="False" >El Grifo gotea ritmicamente mientras escucho las caricaturas de mi hijo cantando sobre las escrituras en el salon...</TextBox>
+		<TextBox name="TextBox2" folder="menu botones e imagenes" color="#FFFFFF" fontsize="16" fonttype="WebSafe" websafefont="LucidaConsole" bold="True" italic="True" underline="False" >Aunque llueva no llego a ver un arcoiris...&#13;&#10;Supongo que hay mucha niebla.</TextBox>
+		<TextBox name="TextBox1" folder="menu botones e imagenes" color="#FFFFFF" fontsize="14" fonttype="WebSafe" websafefont="LucidaConsole" bold="True" italic="True" underline="False" >Hace mucho que no veo un arcoiris...</TextBox>
+		<Timeline name="Timeline2" >
+<Data width="400" height="300" autoplay="True" loop="False" backcolor="#00FFFFFF" showgrid="False" snaptogrid="False" gridsize="10" gridcolor="#5BA2DF" showguide="True" snaptoguide="True" lockguide="False" guidecolor="#33B752" lockratio="True" >
+	<Scene name="Escena1">
+		<Layer name="Capa1" open="True" lock="False" hidden="False" >
+		</Layer>
+	</Scene>
+</Data>
+		</Timeline>
+		<Video name="dismas" mp4url="https://files.fm/f/m97zk9snh8" webmurl="https://files.fm/f/m97zk9snh8" loop="False" autoplay="True" showcontrols="False" disablemenu="False" />
+		<Timeline name="Timeline1" >
+<Data width="400" height="300" autoplay="True" loop="False" backcolor="#00FFFFFF" showgrid="False" snaptogrid="False" gridsize="10" gridcolor="#5BA2DF" showguide="True" snaptoguide="True" lockguide="False" guidecolor="#33B752" lockratio="True" >
+	<Scene name="Escena1">
+		<Layer name="Capa1" open="True" lock="False" hidden="False" >
+		</Layer>
+	</Scene>
+</Data>
+		</Timeline>
+		<Image name="menu uno" source="C:&#92;Users&#92;quiro&#92;Downloads&#92;menu uno.jpg" />
+		<Image name="fondo" source="C:&#92;Users&#92;quiro&#92;Downloads&#92;Ilustración_sin_título (4).png" />
+		<Image name="codigocofre" source="C:&#92;Users&#92;quiro&#92;Downloads&#92;Ilustración_sin_título (5).png" />
+		<Image name="arcoiris" source="C:&#92;Users&#92;quiro&#92;Downloads&#92;Ilustración_sin_título (6).png" />
+		<Image name="n2" folder="naomi" source="C:&#92;Users&#92;quiro&#92;Downloads&#92;Ilustración_sin_título (2).png" />
+		<Image name="n1" folder="naomi" source="C:&#92;Users&#92;quiro&#92;Downloads&#92;Ilustración_sin_título (3).png" />
+		<Image name="instrucciones" source="E:&#92;Copia de seguridad&#92;uni&#92;2&#92;creacion multimedia&#92;hippani&#92;Imagenes&#92;intruc.png" />
+		<Button name="Button2" onclick="GotoSceneName(&quot;Menu&quot;);&#13;&#10;" image="m" pressimage="m (2)" filltype="Image" iconsize="30" bevelwidth="20" fontsize="12" fonttype="Standard" underline="False" userelease="False" >Text</Button>
+		<Image name="fin demo" source="E:&#92;Copia de seguridad&#92;uni&#92;2&#92;creacion multimedia&#92;hippani&#92;Imagenes&#92;fin demo.png" />
+		<Shape name="Shape2" color="#000000" type="Rectangle" />
+		<HotSpot name="fin" onclick="GotoAndPlay(40);" userelease="False" />
+		<HotSpot name="c3" onclick="GotoAndStop(0);" userelease="False" />
+		<HotSpot name="c2" onclick="GotoAndStop(30);" userelease="False" />
+		<HotSpot name="c1" onclick="  GotoAndStop(25);" userelease="False" />
+		<Text name="Text4" fontsize="50" fonttype="WebSafe" bold="True" underline="False" >3</Text>
+		<Text name="Text3" fontsize="50" fonttype="WebSafe" bold="True" underline="False" >2</Text>
+		<Text name="Text2" fontsize="50" fonttype="WebSafe" bold="True" underline="False" >1</Text>
+		<Shape name="Shape1" color="#FFB517" bordercolor="#000000" bordertype="Solid" borderwidth="10" type="Square" />
+		<HotSpot name="HotSpot2" onclick="GotoAndStop(20);&#13;&#10;" userelease="False" />
+		<Image name="paredcodigo" source="E:&#92;Copia de seguridad&#92;uni&#92;2&#92;creacion multimedia&#92;hippani&#92;Imagenes&#92;paredcodigo.PNG" />
+		<Image name="cofre" source="E:&#92;Copia de seguridad&#92;uni&#92;2&#92;creacion multimedia&#92;hippani&#92;Imagenes&#92;cofre.PNG" />
+		<ImageSequence name="naomi" folder="naomi" speed="0.25" >
+			<ImageList>
+				<Value>n1</Value>
+				<Value>n2</Value>
+			</ImageList>
+		</ImageSequence>
+		<Button name="skip 2 boton" onclick="GotoAndPlay(300);&#13;&#10;SoundPlay(&quot;boton&quot;,false);&#13;&#10;" color="#AA3714" image="s" bordercolor="#000000" presscolor="#CB694B" pressimage="s (2)" borderpresscolor="#333333" filltype="Image" bordertype="Solid" borderwidth="5" texteffect="Shadow" iconsize="30" bevelwidth="20" fontsize="12" fonttype="Standard" standardfont="Punkboy" underline="False" userelease="False" shadows="True" >skip intro</Button>
+		<Image name="s (2)" source="F:&#92;Copia de seguridad&#92;uni&#92;2&#92;creacion multimedia&#92;hippani&#92;Imagenes&#92;s (2).PNG" />
+		<Image name="m (2)" source="F:&#92;Copia de seguridad&#92;uni&#92;2&#92;creacion multimedia&#92;hippani&#92;Imagenes&#92;m (2).PNG" />
+		<Image name="cp (2)" source="F:&#92;Copia de seguridad&#92;uni&#92;2&#92;creacion multimedia&#92;hippani&#92;Imagenes&#92;cp (2).PNG" />
+		<Button name="comenzarpartida" onclick="Play();&#13;&#10;" image="cp" pressimage="cp (2)" filltype="Image" iconsize="30" bevelwidth="20" fontsize="12" fonttype="Standard" underline="False" userelease="False" ></Button>
+		<GIF name="fire" source="F:&#92;Copia de seguridad&#92;uni&#92;2&#92;creacion multimedia&#92;hippani&#92;Imagenes&#92;file.gif" />
+		<InputSlider name="InputSlider1" color="#AA3714" backcolor="#CCCCCC" valuecolor="#FFFFFF" maxvalue="100" barsize="30" onchange="SoundSetVolume(&quot;Soundtrack&quot;,Value);&#13;&#10;" presscolor="#CB694B" bevelwidth="20" />
+		<Button name="ch" onclick="GotoAndPlay(300);&#13;&#10;SoundPlay(&quot;b&quot;,false);&#13;&#10;&#13;&#10;&#13;&#10;" color="#AA3714" image="cp" bordercolor="#000000" presscolor="#CB694B" pressimage="cp (2)" borderpresscolor="#333333" filltype="Image" bordertype="Solid" borderwidth="5" texteffect="Shadow" iconsize="30" bevelwidth="20" fontsize="17" fonttype="Standard" standardfont="Punkboy" underline="False" userelease="False" shadows="True" shadowwidth="5" >GALERIA DE IMAGENES</Button>
+		<Image name="s" source="F:&#92;Copia de seguridad&#92;uni&#92;2&#92;creacion multimedia&#92;hippani&#92;Imagenes&#92;s.PNG" />
+		<Image name="m" source="F:&#92;Copia de seguridad&#92;uni&#92;2&#92;creacion multimedia&#92;hippani&#92;Imagenes&#92;m.PNG" />
+		<Image name="cp" source="F:&#92;Copia de seguridad&#92;uni&#92;2&#92;creacion multimedia&#92;hippani&#92;Imagenes&#92;cp.PNG" />
+		<Sound name="b" source="F:&#92;Copia de seguridad&#92;uni&#92;2&#92;creacion multimedia&#92;hippani&#92;Sonido&#92;boton (1).mp3" />
+		<InputSlider name="Soundmenu" color="#AA3714" backcolor="#CCCCCC" valuecolor="#FFFFFF" maxvalue="100" barsize="30" onchange="SoundSetVolume(&quot;Soundtrack (1)&quot;,Value);&#13;&#10;" presscolor="#CB694B" bevelwidth="20" />
+		<InputSlider name="Sound" color="#AA3714" backcolor="#CCCCCC" valuecolor="#FFFFFF" maxvalue="100" barsize="25" onchange="SoundSetVolume(&quot;Soundtrack&quot;,Value);&#13;&#10;" presscolor="#CB694B" bevelwidth="20" />
+		<Image name="TITULO" source="C:&#92;Users&#92;VSPC-SkyPunch&#92;Desktop&#92;hippani&#92;intro&#92;Ilustración_sin_título (1).png" />
+		<Button name="Skip" onclick="GotoAndPlay(132);&#13;&#10;SoundPlay(&quot;b&quot;,false);&#13;&#10;" color="#AA3714" image="s" bordercolor="#000000" presscolor="#CB694B" pressimage="s (2)" borderpresscolor="#333333" filltype="Image" shape="RoundBox" bordertype="Solid" borderwidth="5" texteffect="Shadow" iconsize="30" bevelwidth="20" fontsize="12" fonttype="Standard" standardfont="Punkboy" underline="False" userelease="False" shadows="True" >skip intro</Button>
+		<HotSpot name="pausa" onclick="Pause();&#13;&#10;" userelease="False" />
+		<Image name="Negro" />
+		<Image name="mas" />
+		<Button name="unmute boton" folder="menu botones e imagenes" onclick="SoundResume(&quot;Soundtrack&quot;);&#13;&#10;" filltype="None" iconsize="30" bevelwidth="20" fontcolor="#1CCE08" fontsize="19" fonttype="Standard" standardfont="Consolas" underline="False" userelease="False" shadows="True" shadowwidth="6" shadowheight="5" >Un-mute</Button>
+		<Text name="Text2 (1)" folder="menu botones e imagenes" color="#CE3208" fontsize="18" fonttype="Standard" standardfont="Consolas" websafefont="Impact" bold="True" italic="True" underline="False" >Audio</Text>
+		<Button name="mute boton" folder="menu botones e imagenes" onclick="SoundPause(&quot;Soundtrack&quot;);&#13;&#10;" filltype="None" iconsize="30" bevelwidth="20" fontcolor="#1CCE08" fontsize="19" fonttype="Standard" standardfont="Consolas" underline="False" userelease="False" shadows="True" shadowwidth="6" shadowheight="5" >Mute</Button>
+		<Button name="opciones boton" folder="menu botones e imagenes" onclick="GotoAndStop(19);&#13;&#10;SoundPlay(&quot;boton&quot;,false);&#13;&#10;" filltype="None" texteffect="Shadow" iconsize="30" bevelwidth="20" fontcolor="#1CCE08" fontsize="12" fonttype="Standard" standardfont="Consolas" underline="False" userelease="False" shadowwidth="6" shadowheight="5" >Opciones</Button>
+		<Sound name="Soundtrack (1)" source="C:&#92;Users&#92;Usuario&#92;Downloads&#92;Aylex - Tension Rising.mp3" />
+		<Sound name="boton" source="C:&#92;Users&#92;Usuario&#92;Downloads&#92;boton.mp3" />
+		<YouTube name="welcome to san dimas youtube" folder="menu botones e imagenes" videoid="pEeDV0XBMiw" loop="False" autoplay="True" showcontrols="True" />
+		<Image name="rotura i3" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura i3.jpg" />
+		<Image name="rotura i2" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura i2.jpg" />
+		<Image name="rotura i1" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura i1.jpg" />
+		<Image name="rotura c5 ob" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura c5 ob.jpg" />
+		<Image name="rotura c4" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura c4.jpg" />
+		<Image name="rotura c3" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura c3.jpg" />
+		<Image name="rotura c2" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura c2.jpg" />
+		<Image name="rotura c1" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura c1.jpg" />
+		<Image name="rotura a6 ob" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura a6 ob.jpg" />
+		<Image name="rotura a5" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura a5.jpg" />
+		<Image name="rotura a4" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura a4.jpg" />
+		<Image name="rotura a3" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura a3.jpg" />
+		<Image name="rotura a2" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura a2.jpg" />
+		<Image name="rotura a1" folder="animacion inicial" source="K:&#92;JUEGO ANGELO&#92;rotura a1.jpg" />
+		<Image name="menu corregido" folder="menu botones e imagenes" source="K:&#92;JUEGO ANGELO&#92;menu corregido.jpg" />
+		<Text name="Text1 (1)" folder="menu botones e imagenes" color="#4A7F29" fontsize="18" fonttype="WebSafe" websafefont="Palatino" underline="False" >PROYECTO REALIZADO POR:&#13;&#10;&#13;&#10;ANGELO PASCAL VASCONEZ ESPINOSA&#13;&#10;&#13;&#10;2024-2025 CREACIÓN MULTIMEDIA GRUPO R&#13;&#10;&#13;&#10;ILUSTRACIONES REALIZADAS POR:&#13;&#10;&#13;&#10;ANGELO PASCAL VASCONEZ ESPINOSA&#13;&#10;&#13;&#10;MEDIOS UTLIZADOS PARA REALIZAR LAS ILUSTRACIONES:&#13;&#10;&#13;&#10;IPAD 2022 Y PROCREATE&#13;&#10;&#13;&#10;PROGRAMA UTILIZADO PARA MONTAR EL PROYECTO:&#13;&#10;&#13;&#10;HIPPANI ANIMATOR 5.1&#13;&#10;&#13;&#10;AGRADECIMIENTOS:&#13;&#10;&#13;&#10;A MI PRECIOSA NOVIA ANA QUE ES LO MAS PRECIOSO DEL MUNDO&#13;&#10;LA FOCA MIZORE QUE NOS CUIDA A TODOS DESDE EL CIELO&#13;&#10;</Text>
+		<Shape name="bloque negro" folder="Creditos" color="#000000" type="Rectangle" />
+		<Image name="cocina animacion" folder="animacion inicial" />
+		<Image name="comida ras anim" folder="animacion inicial" />
+		<Image name="tv 1 cred" folder="animacion inicial" />
+		<Image name="tv 2" folder="animacion inicial" source="C:&#92;Users&#92;Usuario&#92;Downloads&#92;Ilustración_sin_título (6).jpg" />
+		<Image name="tv 3" folder="animacion inicial" source="C:&#92;Users&#92;Usuario&#92;Downloads&#92;Ilustración_sin_título (7).jpg" />
+		<Image name="tv 4" folder="animacion inicial" source="C:&#92;Users&#92;Usuario&#92;Downloads&#92;Ilustración_sin_título (8).jpg" />
+		<Button name="galeria izquierda 2" folder="botones galeria" onclick="GotoSceneIndexAndStop(1,6);&#13;&#10;SoundPlay(&quot;boton&quot;,false);&#13;&#10;" image="flecha izquierda" filltype="Image" iconsize="30" bevelwidth="20" fontsize="12" fonttype="Standard" underline="False" userelease="False" >Text</Button>
+		<Image name="flecha izquierda" folder="botones galeria" />
+		<Shape name="Shape1 (1)" folder="botones galeria" color="#81088C" gradientcolor="#000000" bordercolor="#000000" filltype="Gradient" bordertype="Solid" borderwidth="4" type="ArrowLeftO" size="50" />
+		<Image name="tv 1" folder="galeria" source="C:&#92;Users&#92;Usuario&#92;Downloads&#92;Ilustración_sin_título (5).jpg" />
+		<Button name="galeria boton 2der" folder="botones galeria" onclick="GotoSceneIndexAndStop(1,7);&#13;&#10;SoundPlay(&quot;boton&quot;,false);&#13;&#10;&#13;&#10;" image="flechaderecha" filltype="Image" iconimage="flechaderecha" iconsize="30" bevelwidth="20" fontsize="12" fonttype="Standard" underline="False" userelease="False" ></Button>
+		<Image name="comida rapida amazing shrew" folder="galeria" source="C:&#92;Users&#92;Usuario&#92;Downloads&#92;Ilustración_sin_título (4).jpg" />
+		<Image name="cocina imagen" folder="galeria" source="C:&#92;Users&#92;Usuario&#92;Downloads&#92;Ilustración_sin_título (3).jpg" />
+		<Image name="flechaderecha" folder="botones galeria" />
+		<Button name="boton galeria izqierda 1" folder="botones galeria" onclick="GotoAndStop(GetFrame()-2);&#13;&#10;SoundPlay(&quot;boton&quot;,false);&#13;&#10;&#13;&#10;" image="flecha izquierda" pressimage="flecha izquierda" filltype="Image" iconsize="30" bevelwidth="20" fontsize="12" fonttype="Standard" underline="False" userelease="False" >Text</Button>
+		<Button name="galeria derecha boton 1" folder="botones galeria" onclick="GotoAndStop(GetFrame()+2);&#13;&#10;SoundPlay(&quot;boton&quot;,false);&#13;&#10;&#13;&#10;" image="flechaderecha" pressimage="flechaderecha" filltype="Image" icontype="Image" iconimage="flechaderecha" iconsize="30" bevelwidth="20" fontsize="12" fonttype="Standard" underline="False" userelease="False" ></Button>
+		<Image name="volver menu click imagen" folder="menu botones e imagenes" source="D:&#92;JUEGO ANGELO&#92;volver menu click.png" zoomx="0.00" zoomy="100.00" />
+		<Button name="boton volver menu" folder="menu botones e imagenes" onclick="GotoAndPlay(0);&#13;&#10;SoundPlay(&quot;boton&quot;,false);&#13;&#10;" onover="SoundPlay(&quot;boton&quot;,false);" image="menu normal" pressimage="volver menu click imagen" overimage="volver menu click imagen" filltype="Image" iconsize="30" bevelwidth="20" fontsize="12" fonttype="Standard" underline="False" usemouseover="True" userelease="False" >Text</Button>
+		<Image name="Inicio normal" folder="menu botones e imagenes" source="D:&#92;JUEGO ANGELO&#92;Inicio normal.png" zoomx="100.00" />
+		<Image name="inicio sobre" folder="menu botones e imagenes" source="D:&#92;JUEGO ANGELO&#92;inicio sobre.png" zoomx="100.00" />
+		<Button name="creditos boton" folder="menu botones e imagenes" onclick="GotoAndPlay(60);&#13;&#10;SoundPlay(&quot;boton&quot;,false);&#13;&#10;" onover="SoundPlay(&quot;boton&quot;,false);" image="creditos normal" pressimage="creditos click" overimage="creditos sobre" filltype="Image" iconsize="30" bevelwidth="20" fontsize="12" fonttype="Standard" underline="False" usemouseover="True" userelease="False" >Text</Button>
+		<Button name="galeria boton" folder="menu botones e imagenes" onclick="GotoAndStop(25);&#13;&#10;SoundPlay(&quot;boton&quot;,false);&#13;&#10;" onover="SoundPlay(&quot;boton&quot;,false);" image="galeria normal" pressimage="galeria click" overimage="galeria sobre" filltype="Image" iconsize="30" bevelwidth="20" fontsize="12" fonttype="Standard" underline="False" usemouseover="True" userelease="False" >Text</Button>
+		<Button name="inicio boton" folder="menu botones e imagenes" onclick="GotoAndPlay(300);&#13;&#10;SoundPlay(&quot;boton&quot;,false);&#13;&#10;" onover="SoundPlay(&quot;boton&quot;,false);" image="Inicio normal" pressimage="inicio click" overimage="inicio sobre" filltype="Image" iconsize="30" bevelwidth="20" fontsize="12" fonttype="Standard" underline="False" usemouseover="True" userelease="False" >Text</Button>
+		<Image name="menu uno (1)" folder="menu botones e imagenes" source="D:&#92;JUEGO ANGELO&#92;menu uno.jpg" zoomx="49.65" zoomy="0.00" />
+		<Image name="menu normal" folder="menu botones e imagenes" source="D:&#92;JUEGO ANGELO&#92;menu normal.png" zoomx="0.00" zoomy="100.00" />
+		<Image name="menu click" folder="menu botones e imagenes" source="D:&#92;JUEGO ANGELO&#92;menu click.jpg" />
+		<Image name="inicio click" folder="menu botones e imagenes" source="D:&#92;JUEGO ANGELO&#92;inicio click.png" zoomx="100.00" />
+		<Image name="galeria sobre" folder="menu botones e imagenes" source="D:&#92;JUEGO ANGELO&#92;galeria sobre.png" zoomx="100.00" />
+		<Image name="galeria normal" folder="menu botones e imagenes" source="D:&#92;JUEGO ANGELO&#92;galeria normal.png" zoomx="100.00" />
+		<Image name="galeria display" folder="botones galeria" source="D:&#92;JUEGO ANGELO&#92;galeria display.png" />
+		<Image name="galeria click" folder="menu botones e imagenes" source="D:&#92;JUEGO ANGELO&#92;galeria click.png" zoomx="100.00" />
+		<Image name="creditos sobre" folder="menu botones e imagenes" source="D:&#92;JUEGO ANGELO&#92;creditos sobre.png" zoomx="100.00" zoomy="100.00" />
+		<Image name="creditos normal" folder="menu botones e imagenes" source="D:&#92;JUEGO ANGELO&#92;creditos normal.png" zoomx="100.00" zoomy="100.00" />
+		<Image name="creditos click" folder="menu botones e imagenes" source="D:&#92;JUEGO ANGELO&#92;creditos click.png" zoomx="100.00" zoomy="100.00" />
+	</Library>
+	<Scene name="Inicio" zoomx="50.13" zoomy="59.86">
+		<Layer name="Capa1" open="True" lock="False" hidden="False" >
+			<Sprite item="comenzarpartida">
+			<Frame time="0" x="400.23" y="311.34" zoomx="8.03" zoomy="3.88" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="menu uno">
+			<Frame time="0" x="401.56" y="301.50" zoomx="8.19" zoomy="6.12" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+		</Layer>
+		<Scripts>
+			<Script time="0">Stop();&#13;&#10;</Script>
+		</Scripts>
+	</Scene>
+	<Scene name="intro" zoom="80" zoomx="49.78" zoomy="48.82">
+		<Layer name="Layer1" open="True" lock="False" hidden="False" >
+			<Sprite item="Skip">
+			<Frame time="0" x="749.32" y="556.32" zoomx="0.79" zoomy="0.79" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="131" x="754.32" y="555.32" zoomx="0.79" zoomy="0.79" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="YouTube1">
+			<Frame time="0" x="398.82" y="256.94" zoomx="8.06" zoomy="5.16" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+		</Layer>
+		<Scripts>
+			<Script time="130">SoundStop(&quot;Soundtrack&quot;);&#13;&#10;</Script>
+		</Scripts>
+	</Scene>
+	<Scene name="Menu" chosen="True" zoomx="37.47" zoomy="45.92">
+		<Layer name="Capa1" open="True" lock="False" hidden="False" >
+			<Sprite item="Soundmenu">
+			<Frame time="0" x="121.00" y="530.00" zoomx="2.00" zoomy="0.30" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="Soundtrack (1)">
+			<Frame time="0" x="400.00" y="300.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="boton volver menu">
+			<Frame time="21" x="85.50" y="56.00" zoomx="1.55" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="247" x="85.50" y="56.00" zoomx="1.55" zoomy="1.00" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="Text1 (1)">
+			<Frame time="60" x="400.27" y="805.11" zoomx="8.08" zoomy="5.14" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="235" x="406.05" y="-233.02" zoomx="7.24" zoomy="4.52" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="bloque negro">
+			<Frame time="60" x="404.11" y="302.41" zoomx="8.12" zoomy="6.09" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="235" x="404.11" y="302.41" zoomx="8.12" zoomy="6.09" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="boton galeria izqierda 1">
+			<Frame time="27" x="57.00" y="271.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="37" x="57.00" y="271.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="galeria derecha boton 1">
+			<Frame time="25" x="745.00" y="268.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="35" x="745.00" y="268.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="cocina animacion">
+			<Frame time="35" x="395.85" y="299.00" zoomx="4.96" zoomy="3.47" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="37" x="395.85" y="298.99" zoomx="4.96" zoomy="3.47" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="tv 1">
+			<Frame time="33" x="395.85" y="299.00" zoomx="4.96" zoomy="3.47" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="35" x="395.85" y="299.00" zoomx="4.96" zoomy="3.47" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="comida rapida amazing shrew">
+			<Frame time="31" x="395.85" y="299.00" zoomx="4.96" zoomy="3.47" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="33" x="395.85" y="299.00" zoomx="4.96" zoomy="3.47" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="galeria display">
+			<Frame time="29" x="395.85" y="299.00" zoomx="4.96" zoomy="3.47" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="31" x="-355.15" y="-177.00" zoomx="4.96" zoomy="3.47" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="fondo">
+			<Frame time="27" x="395.85" y="299.00" zoomx="4.96" zoomy="3.47" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="29" x="395.85" y="299.00" zoomx="4.96" zoomy="3.47" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="rotura i1">
+			<Frame time="25" x="395.90" y="299.00" zoomx="4.96" zoomy="3.47" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="27" x="372.00" y="202.00" zoomx="20.48" zoomy="12.75" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="galeria display">
+			<Frame time="25" x="401.06" y="300.94" zoomx="8.05" zoomy="6.05" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="38" x="401.06" y="300.94" zoomx="8.05" zoomy="6.05" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="creditos boton">
+			<Frame time="0" x="626.75" y="395.00" zoomx="2.34" zoomy="1.36" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="24" x="626.75" y="395.00" zoomx="2.34" zoomy="1.36" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="galeria boton">
+			<Frame time="0" x="626.75" y="244.00" zoomx="2.34" zoomy="1.36" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="24" x="626.75" y="244.00" zoomx="2.34" zoomy="1.36" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="inicio boton">
+			<Frame time="0" x="626.75" y="117.00" zoomx="2.34" zoomy="1.36" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="24" x="626.75" y="116.99" zoomx="2.34" zoomy="1.36" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="menu corregido">
+			<Frame time="0" x="401.06" y="299.95" zoomx="8.02" zoomy="6.03" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="24" x="401.06" y="299.95" zoomx="8.02" zoomy="6.03" rotatedir="Shortest" transition="True" />
+			</Sprite>
+		</Layer>
+		<Scripts>
+			<Script time="0">SoundPlay(&quot;Soundtrack (1)&quot;, false);</Script>
+			<Script time="18">GotoAndPlay(1);</Script>
+		</Scripts>
+	</Scene>
+	<Scene name="Historia" zoomx="50.13" zoomy="50.34">
+		<Layer name="Capa1" open="True" lock="False" hidden="False" >
+			<Sprite item="continuar boton">
+			<Frame time="0" x="739.85" y="543.47" zoomx="0.44" zoomy="0.43" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="10">
+			<Frame time="20" x="429.40" y="540.00" zoomx="3.85" zoomy="1.28" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="21" x="429.40" y="540.00" zoomx="3.85" zoomy="1.28" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="9">
+			<Frame time="18" x="410.00" y="539.00" zoomx="2.00" zoomy="0.50" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="19" x="410.00" y="539.00" zoomx="2.00" zoomy="0.50" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="9">
+			<Frame time="16" x="415.95" y="544.00" zoomx="2.40" zoomy="0.68" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="17" x="415.95" y="544.00" zoomx="2.40" zoomy="0.68" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="8">
+			<Frame time="14" x="414.85" y="544.00" zoomx="4.10" zoomy="0.82" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="15" x="414.85" y="544.00" zoomx="4.10" zoomy="0.82" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="7">
+			<Frame time="12" x="421.50" y="544.00" zoomx="3.97" zoomy="0.92" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="13" x="421.50" y="544.00" zoomx="3.97" zoomy="0.92" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="6">
+			<Frame time="10" x="420.90" y="533.00" zoomx="2.56" zoomy="0.70" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="11" x="420.90" y="533.00" zoomx="2.56" zoomy="0.70" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="5">
+			<Frame time="8" x="430.50" y="534.00" zoomx="4.43" zoomy="1.28" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="9" x="430.50" y="534.00" zoomx="4.43" zoomy="1.28" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="4">
+			<Frame time="6" x="433.10" y="534.98" zoomx="3.36" zoomy="0.60" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="7" x="433.10" y="534.98" zoomx="3.36" zoomy="0.60" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="3">
+			<Frame time="4" x="428.75" y="534.01" zoomx="5.44" zoomy="1.12" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="5" x="428.75" y="534.01" zoomx="5.44" zoomy="1.12" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="2">
+			<Frame time="2" x="421.30" y="547.50" zoomx="4.91" zoomy="1.33" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="3" x="421.30" y="547.50" zoomx="4.91" zoomy="1.33" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="1">
+			<Frame time="0" x="422.00" y="540.98" zoomx="5.32" zoomy="1.64" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="1" x="422.00" y="540.98" zoomx="5.32" zoomy="1.64" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="cocina imagen" lock="True">
+			<Frame time="0" x="400.51" y="300.97" zoomx="8.05" zoomy="6.03" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+		</Layer>
+		<Scripts>
+			<Script time="0">GotoAndStop(0);&#13;&#10;</Script>
+			<Script time="22">SceneNext();&#13;&#10;</Script>
+		</Scripts>
+	</Scene>
+	<Scene name="Movimiento" zoomx="45.74" zoomy="50.23">
+		<Layer name="Capa1" open="True" lock="False" hidden="False" >
+			<Sprite item="instrucciones">
+			<Frame time="0" x="549.09" y="518.57" zoomx="2.60" zoomy="1.95" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="40" x="549.09" y="518.57" zoomx="2.60" zoomy="1.95" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="Button2">
+			<Frame time="0" x="94.43" y="444.43" zoomx="0.52" zoomy="0.52" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="40" x="94.43" y="445.43" zoomx="0.52" zoomy="0.52" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="vodka">
+			<Frame time="40" x="548.01" y="288.03" zoomx="1.59" zoomy="1.34" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="50" x="418.46" y="235.03" zoomx="5.02" zoomy="4.08" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="65" x="418.46" y="235.03" zoomx="5.02" zoomy="4.08" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="Button2">
+			<Frame time="70" x="402.00" y="484.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="fire">
+			<Frame time="70" x="406.38" y="297.62" zoomx="1.95" zoomy="1.95" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="fin demo">
+			<Frame time="70" x="444.14" y="221.64" zoomx="6.02" zoomy="4.51" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="Shape2">
+			<Frame time="70" x="399.90" y="299.94" zoomx="8.08" zoomy="6.06" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="71" x="399.90" y="299.94" zoomx="8.08" zoomy="6.06" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="fin">
+			<Frame time="30" x="390.00" y="109.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="31" x="390.00" y="109.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="c3">
+			<Frame time="30" x="269.00" y="108.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="31" x="269.00" y="108.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="c3">
+			<Frame time="30" x="507.00" y="109.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="31" x="507.00" y="109.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="c3">
+			<Frame time="25" x="330.00" y="110.00" zoomx="2.18" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="26" x="330.00" y="110.00" zoomx="2.18" zoomy="1.00" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="c2">
+			<Frame time="25" x="507.00" y="111.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="26" x="507.00" y="111.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="c3">
+			<Frame time="20" x="448.45" y="111.00" zoomx="2.13" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="23" x="448.45" y="111.00" zoomx="2.13" zoomy="1.00" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="c1">
+			<Frame time="20" x="270.00" y="106.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="23" x="270.00" y="106.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="Text4">
+			<Frame time="20" x="505.00" y="111.00" zoomx="2.00" zoomy="0.50" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="35" x="505.00" y="111.00" zoomx="2.00" zoomy="0.50" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="Text3">
+			<Frame time="20" x="390.00" y="110.00" zoomx="2.00" zoomy="0.50" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="35" x="390.00" y="110.00" zoomx="2.00" zoomy="0.50" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="Text2">
+			<Frame time="20" x="269.00" y="109.00" zoomx="2.00" zoomy="0.50" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="35" x="269.00" y="109.00" zoomx="2.00" zoomy="0.50" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="Shape1" scriptid="c2">
+			<Frame time="20" x="505.00" y="111.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="35" x="505.00" y="111.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="Shape1" scriptid="c3">
+			<Frame time="20" x="390.00" y="109.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="35" x="390.00" y="109.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="Shape1" scriptid="c1">
+			<Frame time="20" x="270.00" y="108.00" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" visible="True" transition="True" />
+			<Frame time="35" x="269.42" y="107.75" zoomx="1.00" zoomy="1.00" rotatedir="Shortest" transition="True" />
+			</Sprite>
+			<Sprite item="HotSpot2">
+			<Frame time="0" x="563.35" y="305.99" zoomx="1.13" zoomy="1.18" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="naomi" usetimeline="False" scriptid="boy">
+			<Frame time="0" x="122.62" y="210.58" zoomx="6.31" zoomy="4.21" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="codigocofre">
+			<Frame time="0" x="560.70" y="284.49" zoomx="3.75" zoomy="3.11" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="arcoiris">
+			<Frame time="0" x="14.00" y="195.48" zoomx="7.96" zoomy="5.79" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+			<Sprite item="fondo" lock="True">
+			<Frame time="0" x="402.45" y="310.00" zoomx="8.07" zoomy="6.22" rotatedir="Shortest" visible="True" transition="True" />
+			</Sprite>
+		</Layer>
+		<Scripts>
+			<Script time="0">ImageSequenceStop(&quot;boy&quot;);</Script>
+			<Script time="10">Stop();</Script>
+			<Script time="63">GotoAndStop(70);&#13;&#10;</Script>
+			<Script time="219">Pause();</Script>
+		</Scripts>
+	</Scene>
+</Movie>
